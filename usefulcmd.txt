@@ -1,0 +1,2 @@
+sudo docker build -t docker-compose-example .
+sudo docker run -d --name docker-compose-example-container docker-compose-example
