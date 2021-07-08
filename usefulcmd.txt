@@ -1,2 +1,4 @@
 sudo docker build -t docker-compose-example .
 sudo docker run -d --name docker-compose-example-container docker-compose-example
+sudo docker-compose up --build -d # build image before start container
+sudo docker-compose stop monitor # stop service/container
