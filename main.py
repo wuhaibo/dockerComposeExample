@@ -1,6 +1,6 @@
 import time
 
-filename = "log.txt"
+filename = "/var/docker-share/log.txt"
 file = open(filename, 'w+') 
 
 while True:

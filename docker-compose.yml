@@ -1,4 +1,7 @@
-version: "3.9"
+version: "2.0"
 services:
   monitor:
+    container_name: docker-compose-example-container
     build: .
+    volumes:
+      - /opt/docker-share:/var/docker-share
